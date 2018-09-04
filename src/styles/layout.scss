@@ -1,0 +1,35 @@
+/**
+ * @Author: pandali
+ * @Date: 2018-01-10 16:12:19
+ * @Last Modified by: pandali
+ * @Last Modified time: 2018-01-10 16:27:13
+ * layout.css
+ */
+ html,
+ body {
+   height: 100%;
+ }
+.container,
+.views-framework,
+.content {
+  width: 100%;
+  height: auto;
+}
+.viewsFramework-header {
+  width: 100%;
+  height: 50px;
+}
+.viewsFramework-body {
+  margin-top: 50px;
+}
+.viewsFramework-footer {
+  height: 50px;
+  line-height: 50px;
+  text-indent: 20px;
+}
+.content {
+  background: #fff;
+}
+
+
+

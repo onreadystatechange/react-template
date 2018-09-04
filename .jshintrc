@@ -1,0 +1,29 @@
+{
+  "bitwise": false,
+  "node": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "esversion": 6,
+  "forin": true,
+  "freeze": true,
+  "funcscope": true,
+  "futurehostile": true,
+  "debug": true,
+  "immed": true,
+  "asi": true,
+  "sub": true,
+  "undef": true,
+  "unused": false,
+  "globals": {
+    "define": true,
+    "module": true,
+    "export": true,
+    "console": true,
+    "THREE": true,
+    "TWEEN": true,
+    "Stats": true,
+    "window": true,
+    "document": true
+  }
+}

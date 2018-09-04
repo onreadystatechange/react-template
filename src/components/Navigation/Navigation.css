@@ -1,0 +1,53 @@
+.nav {
+	float: right;
+	margin-left: 15px;
+	height: 50px;
+}
+.nav-item {
+	display: block;
+	margin: 9px 5px;
+	padding: 3px 10px;
+	border-radius: 3px;
+	-webkit-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+	color: #fff;
+	font-size: 1.4rem;
+	float: left;
+}
+.bg-back .nav-item {
+	height: 100%;
+	border-radius: 0;
+	margin: 0;
+	padding: 11px 15px;
+	color: #b9c1c7;
+}
+.nav-item:hover {
+	background-color: rgba(0,0,0,.3);
+}
+.nav-item span {
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+}
+.bg-back .nav-item span {
+	height: auto;
+	line-height: normal;
+}
+.nav-item .nav-icon {
+	width: 24px;
+	font-size: 2.2rem;
+	text-align: center;
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

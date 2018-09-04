@@ -1,0 +1,65 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	-webkit-transition:background 300ms ease-in;
+  transition:background 300ms ease-in;
+  background: #20232a;
+}
+.bg-back {
+	background-color: #222;
+/*
+	-webkit-animation: bgToBack linear 300ms forwards;
+  animation: bgToBack linear 300ms forwards;
+*/
+}
+@-webkit-keyframes bgToBack {
+	from {
+			background-color: transparent;
+	}
+	to {
+			background-color: #222;
+	}
+}
+
+@keyframes bgToBack {
+	from {
+			background-color: transparent;
+	}
+	to {
+			background-color: #222;
+	}
+}
+.inner {
+	margin: 0 auto;
+	padding: 0 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 768px)  {
+	.inner {
+		width: 750px;
+	}
+}
+@media screen and (min-width: 992px)  {
+	.inner {
+		width: 970px;
+	}
+}
+@media screen and (min-width: 1200px)  {
+	.inner {
+		width: 1170px;
+	}
+}
+.logo {
+	display: block;
+	float: left;
+	margin: 15px 0;
+	width: 80px;
+	height: 20px;
+}

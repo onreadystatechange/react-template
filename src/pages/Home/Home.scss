@@ -1,0 +1,15 @@
+$max-content-width:1080px;
+
+.content {
+  margin: 50px auto 0 auto;
+  padding: 0 0 40px;
+  width: $max-content-width;
+}
+.newsTitle,
+.newsDesc {
+  display: block;
+}
+.panel {
+  padding: 15px;
+}
+

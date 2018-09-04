@@ -1,4 +1,4 @@
-## 理优Reactjs模板框架
+## Reactjs模板框架
 
   React单页框架，react, react-dom, react-router, react-router-dom。
 
